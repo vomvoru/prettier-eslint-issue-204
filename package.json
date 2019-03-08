@@ -8,14 +8,15 @@
     "prettier-eslint:airbnb:babel-eslint": "prettier-eslint index.js --eslint-config-path .eslintrc.airbnb.babel-eslint.js",
     "eslint:airbnb:babel-eslint": "eslint index.js --eslint-config-path .eslintrc.airbnb.babel-eslint.js",
     "prettier-eslint": "prettier-eslint index.js",
-    "prettier": "prettier index.js"
+    "prettier": "prettier index.js",
+    "eslint": "eslint index.js --c .eslintrc.airbnb.babel-eslint.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.1",
-    "prettier": "^1.16.4",
+    "eslint": "^4.0.0",
+    "prettier": "^1.7.0",
     "prettier-eslint": "^8.8.2",
     "prettier-eslint-cli": "^4.7.1",
     "eslint-config-airbnb": "^17.1.0",
